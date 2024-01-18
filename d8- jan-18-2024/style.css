@@ -1,0 +1,14 @@
+.dadu{
+    color: aqua;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    word-spacing: 6px;
+    width: 600px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: arial;
+    -webkit-text-stroke: 1px darkblue;
+    text-shadow: 3px 3px 3px darkblue;
+    line-height: 44px;
+}
