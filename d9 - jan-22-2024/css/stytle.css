@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.germany {
+    width: 300px;
+    height: 200px;
+    margin: 20px auto;
+}
+
+.germany > .black {
+    width: 100%;
+    height: 33.33%;
+    background-color: black;
+}
+
+.germany > .red {
+    width: 100%;
+    height: 33.34%;
+    background-color: red;
+}
+
+.germany > .yellow {
+    width: 100%;
+    height: 33.33%;
+    background-color: yellow;
+}
+
+.kakku {
+    width: 600px;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+}
