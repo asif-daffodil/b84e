@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(to top right, red, white, blue);
+    margin: 20px;
+    float: left;
+}
+
+.pain {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    background: radial-gradient(red,green,blue);
+    float: left;
+}
+
+.rain {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    float: left;
+    background: repeating-linear-gradient(45deg, red, yellow 10px, green 20px);
+}
+
+.train{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    float: left;
+    background: repeating-radial-gradient(red, yellow 10px, green 20px);
+}
+
+.sain {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    float: left;
+    background: url("../images/bg.jpg");
+}
+
+.solid {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    float: left;
+    background: #ff0000;
+}
+
+.lain {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    float: left;
+    background: linear-gradient(to top right, red, white, blue), url("../images/bg.jpg");
+    background-size: cover;
+    background-blend-mode: screen;
+}
+
+.gain{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background: repeating-radial-gradient(red, yellow 10px, green 20px);
+    background-clip: text;
+    color: transparent;
+    border: 6px solid;
+    border-image: repeating-radial-gradient(red, yellow 10px, green 20px);
+    border-image-slice: 32;
+}
