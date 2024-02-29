@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.si {
+    width: 300px;
+    margin: 160px auto;
+    display: block;
+    animation: sa 2s linear infinite;
+    /* animation-name: sa;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite; */
+}
+
+@keyframes sa {
+    0% {
+        transform: skew(-30deg, -30deg) rotate(0deg);
+    }
+    50% {
+        transform: skew(30deg, 30deg) rotate(180deg);
+    }
+    100% {
+        transform: skew(-30deg, -30deg) rotate(360deg);
+    }
+}
